@@ -90,3 +90,10 @@ I was granted the Fulbright Scholarship to complete a master's degree in Compute
 - **Software Developer**, Kubtec Medical Imaging, Stratford, CT (2020&ndash;2023)
 - **Assistant Lecturer / Researcher**, University of Kerbala, Iraq (2017&ndash;2018, 2020&ndash;2023)
 - **Teaching Assistant / Network Administrator**, Al-Nahrain University, Iraq (2014&ndash;2017)
+
+<hr>
+
+## Hobbies
+{: #hobbies}
+
+In my free time, I like to make little art as a way to create something beautiful. If you'd like to see my art, [click here](https://zainabaltaweel.github.io/art-gallery/).
