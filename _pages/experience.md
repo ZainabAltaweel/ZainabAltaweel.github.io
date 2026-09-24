@@ -131,7 +131,6 @@ description: Research, teaching, and industry roles, in reverse chronological or
     <span class="role-meta">Computer Engineering Department &middot; Baghdad, Iraq &middot; Oct 2014&ndash;May 2017</span>
     <ul class="duty-list">
       <li>Taught as a teaching assistant in the Computer Engineering Department.</li>
-      <li>Developed the College of Engineering's E-Library system.</li>
     </ul>
   </div>
 
