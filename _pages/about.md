@@ -77,19 +77,3 @@ I was granted the Fulbright Scholarship to complete a master's degree in Compute
 **Links:** [Google Scholar](https://scholar.google.com/citations?user=lv-m9asAAAAJ&hl=en) &middot; [LinkedIn](https://www.linkedin.com/in/zainab-al-taweel/) &middot; [ResearchGate](https://www.researchgate.net/profile/Zainab-Al-Taweel-2) &middot; [GitHub](https://github.com/ZainabAltaweel) &middot; [zaltaweel@binghamton.edu](mailto:zaltaweel@binghamton.edu)
 
 <div style="clear: both;"></div>
-
-<hr>
-
-## Academic Service
-{: #academic-service}
-
-- Program Committee Member, AAAI 2026 (AISI track) &mdash; reviewed 3 papers
-- Reviewer, CoRL 2026 &mdash; reviewed 3 papers
-- Reviewer, ICRA 2026 &mdash; reviewed 7 papers
-
-<hr>
-
-## Hobbies
-{: #hobbies}
-
-In my free time, I like to make little art as a way to create something beautiful. If you'd like to see my art, [click here](https://zainabaltaweel.github.io/art-gallery/).
