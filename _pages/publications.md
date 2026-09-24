@@ -102,7 +102,7 @@ description: Peer-reviewed papers and workshop publications, in reverse chronolo
   <div class="timeline-entry">
     <div class="pub-entry">
       <div class="pub-thumb">
-        <video autoplay muted loop playsinline preload="metadata" src="https://protea-secure.github.io/PROTEA/assets/videos/iros.mp4"></video>
+        <video class="lazy-video" muted loop playsinline preload="none" src="https://protea-secure.github.io/PROTEA/assets/videos/iros.mp4"></video>
       </div>
       <div class="pub-body">
         <div class="pub-row">
@@ -121,7 +121,7 @@ description: Peer-reviewed papers and workshop publications, in reverse chronolo
   <div class="timeline-entry">
     <div class="pub-entry">
       <div class="pub-thumb">
-        <video autoplay muted loop playsinline preload="metadata" src="https://mutrap.github.io/MuTRAP/generated_plans_videos/Robotroj_Malicous.mp4"></video>
+        <video class="lazy-video" muted loop playsinline preload="none" src="https://mutrap.github.io/MuTRAP/generated_plans_videos/Robotroj_Malicous.mp4"></video>
       </div>
       <div class="pub-body">
         <div class="pub-row">
@@ -140,7 +140,7 @@ description: Peer-reviewed papers and workshop publications, in reverse chronolo
   <div class="timeline-entry">
     <div class="pub-entry">
       <div class="pub-thumb">
-        <video autoplay muted loop playsinline preload="metadata" src="https://vap-tamp.github.io/vap-tamp/videos/IROS26_3741_VI_i.mp4"></video>
+        <video class="lazy-video" muted loop playsinline preload="none" src="https://vap-tamp.github.io/vap-tamp/videos/IROS26_3741_VI_i.mp4"></video>
       </div>
       <div class="pub-body">
         <div class="pub-row">
@@ -237,3 +237,27 @@ description: Peer-reviewed papers and workshop publications, in reverse chronolo
   </div>
 
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var videos = document.querySelectorAll('video.lazy-video');
+    if (!('IntersectionObserver' in window)) {
+      videos.forEach(function (v) { v.play().catch(function () {}); });
+      return;
+    }
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          var v = entry.target;
+          if (entry.isIntersecting) {
+            v.play().catch(function () {});
+          } else {
+            v.pause();
+          }
+        });
+      },
+      { threshold: 0.25 }
+    );
+    videos.forEach(function (v) { observer.observe(v); });
+  });
+</script>
