@@ -74,7 +74,7 @@ I am a Ph.D. student in the School of Computing at Binghamton University, in my 
 
 I was granted the Fulbright Scholarship to complete a master's degree in Computer Engineering at the University of Bridgeport (2018&ndash;2020).
 
-**Links:** [Google Scholar](https://scholar.google.com/citations?user=lv-m9asAAAAJ&hl=en) &middot; [LinkedIn](https://www.linkedin.com/in/zainab-al-taweel/) &middot; [ResearchGate](https://www.researchgate.net/profile/Zainab-Al-Taweel-2) &middot; [Email](mailto:zaltaweel@binghamton.edu)
+**Links:** [Google Scholar](https://scholar.google.com/citations?user=lv-m9asAAAAJ&hl=en) &middot; [LinkedIn](https://www.linkedin.com/in/zainab-al-taweel/) &middot; [ResearchGate](https://www.researchgate.net/profile/Zainab-Al-Taweel-2) &middot; [zaltaweel@binghamton.edu](mailto:zaltaweel@binghamton.edu)
 
 <div style="clear: both;"></div>
 
@@ -101,14 +101,6 @@ I was granted the Fulbright Scholarship to complete a master's degree in Compute
 - Program Committee Member, AAAI 2026 (AISI track) &mdash; reviewed 3 papers
 - Reviewer, CoRL 2026 &mdash; reviewed 3 papers
 - Reviewer, ICRA 2026 &mdash; reviewed 7 papers
-
-<hr>
-
-## Media Coverage
-{: #media-coverage}
-
-- [Watson Review &ndash; Summer 2025](https://issuu.com/binghamtonu/docs/watson_review_-_summer_2025)
-- [Watson GROWS puts spotlight on graduate student research](https://www.binghamton.edu/news/story/5533/watson-grows-puts-spotlight-on-graduate-student-research)
 
 <hr>
 
