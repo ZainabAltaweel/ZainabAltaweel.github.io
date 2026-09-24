@@ -103,7 +103,6 @@ description: Research, teaching, and industry roles, in reverse chronological or
     <span class="role-meta">Prosthetics &amp; Orthotics Dept., College of Engineering &middot; Karbala, Iraq (Part-Time) &middot; Aug 2020&ndash;Aug 2023</span>
     <ul class="duty-list">
       <li>Taught as Assistant Lecturer in the Prosthetics and Orthotics Department, College of Engineering.</li>
-      <li>Served as administrator of the College of Engineering's IT Department (2022&ndash;2023).</li>
     </ul>
   </div>
 
