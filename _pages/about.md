@@ -7,7 +7,7 @@ subtitle: Ph.D. Student, <a href='https://www.binghamton.edu/computer-science/'>
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -24,11 +24,49 @@ latest_posts:
 ---
 
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&display=swap');
+
+  :root {
+    --global-theme-color: #005A43;
+    --global-hover-color: #00432f;
+  }
+
   html { scroll-behavior: smooth; }
   h2[id] { scroll-margin-top: 90px; }
+
+  h1.post-title, h2 {
+    font-family: 'Lora', Georgia, serif;
+  }
+
   .post-title { font-weight: 700; }
+
+  .post-header .desc {
+    color: #5a5a5a;
+    font-weight: 400;
+  }
+
+  h2 {
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--global-theme-color);
+    display: inline-block;
+  }
+
+  hr {
+    margin: 3rem 0;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
   .profile { width: 200px !important; max-width: 42%; }
-  .profile img { width: 100% !important; height: auto !important; }
+  .profile img {
+    width: 100% !important;
+    height: auto !important;
+    border: 3px solid rgba(0, 90, 67, 0.15);
+  }
+
   .navbar-nav .nav-link { text-transform: capitalize; }
 </style>
 
