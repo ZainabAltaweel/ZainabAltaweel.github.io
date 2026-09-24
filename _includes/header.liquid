@@ -48,7 +48,7 @@
           <!-- About -->
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
-              {{- about_title }}
+              {{- about_title | capitalize }}
               {% if page.permalink == '/' %}
                 <span class="sr-only">(current)</span>
               {% endif %}
@@ -57,22 +57,22 @@
 
           <!-- Site pages -->
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/publications/' | relative_url }}">publications</a>
+            <a class="nav-link" href="{{ '/publications/' | relative_url }}">Publications</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/experience/' | relative_url }}">experience</a>
+            <a class="nav-link" href="{{ '/experience/' | relative_url }}">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/news/' | relative_url }}">news</a>
+            <a class="nav-link" href="{{ '/news/' | relative_url }}">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/academic-service/' | relative_url }}">academic service</a>
+            <a class="nav-link" href="{{ '/academic-service/' | relative_url }}">Academic Service</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ '/education/' | relative_url }}">education</a>
+            <a class="nav-link" href="{{ '/education/' | relative_url }}">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://zainabaltaweel.github.io/art-gallery/" target="_blank" rel="noopener">art portfolio</a>
+            <a class="nav-link" href="https://zainabaltaweel.github.io/art-gallery/" target="_blank" rel="noopener">Art Portfolio</a>
           </li>
 
           {% if site.search_enabled %}
