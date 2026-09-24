@@ -68,12 +68,13 @@
   }
   .pub-thumb video, .pub-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .pub-body { flex: 1 1 320px; min-width: 240px; }
-  .pub-row { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-  .pub-title { font-weight: 700; font-size: 1.05rem; margin: 0; line-height: 1.4; }
+  .pub-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: nowrap; }
+  .pub-title { font-weight: 700; font-size: 1.05rem; margin: 0; line-height: 1.4; flex: 1 1 auto; min-width: 0; }
   .pub-title a { color: #16211d; text-decoration: none; }
   .pub-title a:hover { color: #005A43; }
   .venue-tag {
     display: inline-block;
+    flex: 0 0 auto;
     border: 1px solid #005A43;
     color: #005A43;
     font-family: 'Courier New', monospace;
@@ -82,6 +83,7 @@
     padding: 0.15rem 0.6rem;
     border-radius: 999px;
     white-space: nowrap;
+    margin-top: 0.15rem;
   }
   .pub-authors { color: #5a5a5a; font-size: 0.92rem; margin: 0.45rem 0 0.5rem; }
   .pub-links { font-size: 0.88rem; }
