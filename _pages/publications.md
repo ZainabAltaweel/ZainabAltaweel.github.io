@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Peer-reviewed papers and workshop publications, in reverse chronological order.
+description: Peer-reviewed papers, in reverse chronological order.
 ---
 
 <style>
@@ -67,7 +67,7 @@ description: Peer-reviewed papers and workshop publications, in reverse chronolo
     background: #0b1f18;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
   }
-  .pub-thumb video { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .pub-thumb video, .pub-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .pub-body { flex: 1 1 320px; min-width: 240px; }
   .pub-row { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
   .pub-title { font-weight: 700; font-size: 1.05rem; margin: 0; line-height: 1.4; }
@@ -157,82 +157,76 @@ description: Peer-reviewed papers and workshop publications, in reverse chronolo
   </div>
 
   <div class="timeline-entry">
-    <div class="pub-body" style="width: 100%;">
-      <div class="pub-row">
-        <p class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/41198" target="_blank" rel="noopener">From Woofs to Words: Towards Intelligent Robotic Guide Dogs with Verbal Communication</a></p>
-        <span class="venue-tag">AAAI 2026</span>
+    <div class="pub-entry">
+      <div class="pub-thumb">
+        <img src="/assets/img/publications/woofs-to-words-overview.png" alt="From Woofs to Words system overview figure" loading="lazy">
       </div>
-      <p class="pub-authors">Yohei Hayamizu*, David DeFazio*, Hrudayangam Mehta*, <strong>Zainab Altaweel</strong>, Jacqueline Choe, Chao Lin, Jake Juettner, Furui Xiao, Jeremy Blackburn, Shiqi Zhang &middot; *equal contribution</p>
-      <p class="pub-links">
-        <a href="https://ojs.aaai.org/index.php/AAAI/article/view/41198" target="_blank" rel="noopener">Paper</a>
-        <a href="https://sites.google.com/view/woofs-words" target="_blank" rel="noopener">Project page</a>
-      </p>
+      <div class="pub-body">
+        <div class="pub-row">
+          <p class="pub-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/41198" target="_blank" rel="noopener">From Woofs to Words: Towards Intelligent Robotic Guide Dogs with Verbal Communication</a></p>
+          <span class="venue-tag">AAAI 2026</span>
+        </div>
+        <p class="pub-authors">Yohei Hayamizu*, David DeFazio*, Hrudayangam Mehta*, <strong>Zainab Altaweel</strong>, Jacqueline Choe, Chao Lin, Jake Juettner, Furui Xiao, Jeremy Blackburn, Shiqi Zhang &middot; *equal contribution</p>
+        <p class="pub-links">
+          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/41198" target="_blank" rel="noopener">Paper</a>
+          <a href="https://sites.google.com/view/woofs-words" target="_blank" rel="noopener">Project page</a>
+        </p>
+      </div>
     </div>
   </div>
 
   <div class="timeline-entry">
-    <div class="pub-body" style="width: 100%;">
-      <div class="pub-row">
-        <p class="pub-title"><a href="https://doi.org/10.1177/02783649251378196" target="_blank" rel="noopener">LLM-GROP: Visually Grounded Robot Task and Motion Planning with Large Language Models</a></p>
-        <span class="venue-tag">IJRR 2025</span>
+    <div class="pub-entry">
+      <div class="pub-thumb">
+        <img src="https://bu-air-lab.github.io/llm-grop/Overview.jpg" alt="LLM-GROP overview figure" loading="lazy">
       </div>
-      <p class="pub-authors">Xiaohan Zhang*, Yan Ding*, Yohei Hayamizu*, <strong>Zainab Altaweel*</strong>, Yifeng Zhu, Yuke Zhu, Peter Stone, Chris Paxton, Shiqi Zhang &middot; *equal contribution</p>
-      <p class="pub-links">
-        <a href="https://doi.org/10.1177/02783649251378196" target="_blank" rel="noopener">Paper</a>
-        <a href="https://bu-air-lab.github.io/llm-grop/" target="_blank" rel="noopener">Project page</a>
-      </p>
+      <div class="pub-body">
+        <div class="pub-row">
+          <p class="pub-title"><a href="https://doi.org/10.1177/02783649251378196" target="_blank" rel="noopener">LLM-GROP: Visually Grounded Robot Task and Motion Planning with Large Language Models</a></p>
+          <span class="venue-tag">IJRR 2025</span>
+        </div>
+        <p class="pub-authors">Xiaohan Zhang*, Yan Ding*, Yohei Hayamizu*, <strong>Zainab Altaweel*</strong>, Yifeng Zhu, Yuke Zhu, Peter Stone, Chris Paxton, Shiqi Zhang &middot; *equal contribution</p>
+        <p class="pub-links">
+          <a href="https://doi.org/10.1177/02783649251378196" target="_blank" rel="noopener">Paper</a>
+          <a href="https://bu-air-lab.github.io/llm-grop/" target="_blank" rel="noopener">Project page</a>
+        </p>
+      </div>
     </div>
   </div>
 
   <div class="timeline-entry">
-    <div class="pub-body" style="width: 100%;">
-      <div class="pub-row">
-        <p class="pub-title"><a href="https://arxiv.org/abs/2504.17070" target="_blank" rel="noopener">Robo-Troj: Attacking LLM-Based Task Planners</a></p>
-        <span class="venue-tag">RSS 2025 Workshop</span>
+    <div class="pub-entry">
+      <div class="pub-thumb">
+        <img src="https://figures.semanticscholar.org/1880e89ddb71c5c3c84d89207ff8ad7dd21b05dc/4-Figure1-1.png" alt="Neural network architecture figure from the EMG hand gestures paper" loading="lazy">
       </div>
-      <p class="pub-authors">Mohaiminul Al Nahian, <strong>Zainab Altaweel</strong>, David Reitano, Sabbir Ahmed, Shiqi Zhang, Adnan Siraj Rakin</p>
-      <p class="pub-links">
-        <a href="https://arxiv.org/abs/2504.17070" target="_blank" rel="noopener">Paper</a>
-      </p>
+      <div class="pub-body">
+        <div class="pub-row">
+          <p class="pub-title"><a href="https://pdfs.semanticscholar.org/1880/e89ddb71c5c3c84d89207ff8ad7dd21b05dc.pdf" target="_blank" rel="noopener">Using Deep Neural Networks in Classifying Electromyography Signals for Hand Gestures</a></p>
+          <span class="venue-tag">IJ-AI 2024</span>
+        </div>
+        <p class="pub-authors">Ahmed M Al-Khazzar, <strong>Zainab Altaweel</strong>, Jabbar S Hussain</p>
+        <p class="pub-links">
+          <a href="https://pdfs.semanticscholar.org/1880/e89ddb71c5c3c84d89207ff8ad7dd21b05dc.pdf" target="_blank" rel="noopener">Paper</a>
+        </p>
+      </div>
     </div>
   </div>
 
   <div class="timeline-entry">
-    <div class="pub-body" style="width: 100%;">
-      <div class="pub-row">
-        <p class="pub-title"><a href="https://arxiv.org/pdf/2406.17659" target="_blank" rel="noopener">DKPrompt: Domain Knowledge Prompting Vision-Language Models for Open-World Planning</a></p>
-        <span class="venue-tag">AAAI 2025 Workshop</span>
+    <div class="pub-entry">
+      <div class="pub-thumb">
+        <img src="https://figures.semanticscholar.org/d7af8c1eadaf3228fc9cae6c4c37a76716fc26fe/3-Figure1-1.png" alt="Hardware architecture figure from the Smart Parking paper" loading="lazy">
       </div>
-      <p class="pub-authors">Xiaohan Zhang, <strong>Zainab Altaweel*</strong>, Yohei Hayamizu*, Yan Ding, Saeid Amiri, Hao Yang, Andy Kaminski, Chad Esselink, Shiqi Zhang &middot; *equal contribution</p>
-      <p class="pub-links">
-        <a href="https://arxiv.org/pdf/2406.17659" target="_blank" rel="noopener">Paper</a>
-      </p>
-    </div>
-  </div>
-
-  <div class="timeline-entry">
-    <div class="pub-body" style="width: 100%;">
-      <div class="pub-row">
-        <p class="pub-title"><a href="https://pdfs.semanticscholar.org/1880/e89ddb71c5c3c84d89207ff8ad7dd21b05dc.pdf" target="_blank" rel="noopener">Using Deep Neural Networks in Classifying Electromyography Signals for Hand Gestures</a></p>
-        <span class="venue-tag">IJ-AI 2024</span>
+      <div class="pub-body">
+        <div class="pub-row">
+          <p class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/9221069" target="_blank" rel="noopener">Smart Parking for Disabled Parking Improvement Using RFID and Database Authentication</a></p>
+          <span class="venue-tag">WF-IoT 2020</span>
+        </div>
+        <p class="pub-authors"><strong>Zainab Al Taweel</strong>, Lavanya Challagundla, Alexander Pagan, Abdel-shakour Abuzneid</p>
+        <p class="pub-links">
+          <a href="https://ieeexplore.ieee.org/abstract/document/9221069" target="_blank" rel="noopener">Paper</a>
+        </p>
       </div>
-      <p class="pub-authors">Ahmed M Al-Khazzar, <strong>Zainab Altaweel</strong>, Jabbar S Hussain</p>
-      <p class="pub-links">
-        <a href="https://pdfs.semanticscholar.org/1880/e89ddb71c5c3c84d89207ff8ad7dd21b05dc.pdf" target="_blank" rel="noopener">Paper</a>
-      </p>
-    </div>
-  </div>
-
-  <div class="timeline-entry">
-    <div class="pub-body" style="width: 100%;">
-      <div class="pub-row">
-        <p class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/9221069" target="_blank" rel="noopener">Smart Parking for Disabled Parking Improvement Using RFID and Database Authentication</a></p>
-        <span class="venue-tag">WF-IoT 2020</span>
-      </div>
-      <p class="pub-authors"><strong>Zainab Al Taweel</strong>, Lavanya Challagundla, Alexander Pagan, Abdel-shakour Abuzneid</p>
-      <p class="pub-links">
-        <a href="https://ieeexplore.ieee.org/abstract/document/9221069" target="_blank" rel="noopener">Paper</a>
-      </p>
     </div>
   </div>
 
