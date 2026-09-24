@@ -67,7 +67,7 @@ description: Peer-reviewed papers, in reverse chronological order.
     background: #0b1f18;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
   }
-  .pub-thumb video, .pub-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .pub-thumb video, .pub-thumb img, .pub-thumb iframe { width: 100%; height: 100%; object-fit: cover; display: block; border: 0; }
   .pub-body { flex: 1 1 320px; min-width: 240px; }
   .pub-row { display: flex; align-items: flex-start; justify-content: space-between; gap: 1rem; flex-wrap: nowrap; }
   .pub-title { font-weight: 700; font-size: 1.05rem; margin: 0; line-height: 1.4; flex: 1 1 auto; min-width: 0; }
@@ -161,7 +161,7 @@ description: Peer-reviewed papers, in reverse chronological order.
   <div class="timeline-entry">
     <div class="pub-entry">
       <div class="pub-thumb">
-        <img src="/assets/img/publications/woofs-to-words-overview.png" alt="From Woofs to Words system overview figure" loading="lazy">
+        <iframe src="https://drive.google.com/file/d/12z7EdJ_kruQDJ8B2sfObQLw316Vw2mrQ/preview" title="From Woofs to Words demo video: legally blind participants with controlled autonomy" allow="autoplay" loading="lazy"></iframe>
       </div>
       <div class="pub-body">
         <div class="pub-row">
