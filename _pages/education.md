@@ -18,6 +18,9 @@ description: Academic background and training.
     --global-hover-color: #3ECF8E;
   }
 
+  html[data-theme="dark"] .role-org { color: #3ECF8E; }
+  html[data-theme="dark"] .honor-badge { border-color: #3ECF8E; color: #3ECF8E; }
+
   h1.post-title, h2 { font-family: 'Lora', Georgia, serif; }
   .post-title { font-weight: 700; }
   .post-header .desc { color: #5a5a5a; font-weight: 400; }
