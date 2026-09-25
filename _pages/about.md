@@ -31,6 +31,11 @@ latest_posts:
     --global-hover-color: #00432f;
   }
 
+  html[data-theme="dark"] {
+    --global-theme-color: #3ECF8E;
+    --global-hover-color: #3ECF8E;
+  }
+
   html { scroll-behavior: smooth; }
   h2[id] { scroll-margin-top: 90px; }
 
