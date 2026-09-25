@@ -13,6 +13,11 @@ description: Program committee membership and peer review activity.
     --global-hover-color: #00432f;
   }
 
+  html[data-theme="dark"] {
+    --global-theme-color: #3ECF8E;
+    --global-hover-color: #3ECF8E;
+  }
+
   h1.post-title, h2 { font-family: 'Lora', Georgia, serif; }
   .post-title { font-weight: 700; }
   .post-header .desc { color: #5a5a5a; font-weight: 400; }
