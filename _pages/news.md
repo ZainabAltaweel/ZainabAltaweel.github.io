@@ -108,6 +108,26 @@ description: Recent updates, presentations, and media coverage.
 
 <div class="timeline">
 
+  <p class="timeline-year">2026</p>
+
+  <div class="timeline-entry">
+    <span class="news-date">October 2026</span>
+    <p class="news-title">Featured in Fox News coverage of robot-hacking research<span class="news-tag">Media</span></p>
+    <p class="news-body">Her team's work on hacking AI-powered robots was covered in a Fox News segment, <strong>"AI robot stabs fake human hand in alarming experiment,"</strong> reported by senior correspondent Jonathan Serrie on Americas Newsroom. <a href="https://www.foxnews.com/video/6407540417112" target="_blank" rel="noopener">Watch the segment</a>.</p>
+  </div>
+
+  <div class="timeline-entry">
+    <span class="news-date">October 2026</span>
+    <p class="news-title">Research featured in Forbes<span class="news-tag">Media</span></p>
+    <p class="news-body">Forbes covered MuTRAP, the team's robot-hacking method presented at IROS 2026, in <strong>"Nightmare Humanoid Robot Scenario: Hacked Robot Stabs 'Human' Hand In Test,"</strong> which also discusses the group's PROTEA defense work. <a href="https://www.forbes.com/sites/johnkoetsier/2026/10/22/nightmare-humanoid-robot-scenario-hacked-robot-stabs-human-hand-in-test/" target="_blank" rel="noopener">Read the article</a>.</p>
+  </div>
+
+  <div class="timeline-entry">
+    <span class="news-date">September 2026</span>
+    <p class="news-title">Presented two papers at IROS 2026<span class="news-tag">Conference Talk</span></p>
+    <p class="news-body">Presented <strong>PROTEA: Securing Robot Task Planning and Execution</strong> and <strong>MuTRAP: Multi-trigger Trojans Attacking Robot Task Planning Systems</strong> at IROS 2026 in Pittsburgh, PA.</p>
+  </div>
+
   <p class="timeline-year">2025</p>
 
   <div class="timeline-entry">
