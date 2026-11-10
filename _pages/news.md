@@ -113,7 +113,7 @@ description: Recent updates, presentations, and media coverage.
   <div class="timeline-entry">
     <span class="news-date">October 2026</span>
     <p class="news-title">Featured in Fox News coverage of robot-hacking research<span class="news-tag">Media</span></p>
-    <p class="news-body">Her team's work on hacking AI-powered robots was covered in a Fox News segment, <strong>"AI robot stabs fake human hand in alarming experiment,"</strong> reported by senior correspondent Jonathan Serrie on Americas Newsroom. <a href="https://www.foxnews.com/video/6407540417112" target="_blank" rel="noopener">Watch the segment</a>.</p>
+    <p class="news-body"><strong>"AI robot stabs fake human hand in alarming experiment,"</strong> reported by senior correspondent Jonathan Serrie on Americas Newsroom. <a href="https://www.foxnews.com/video/6407540417112" target="_blank" rel="noopener">Watch the segment</a>.</p>
   </div>
 
   <div class="timeline-entry">
